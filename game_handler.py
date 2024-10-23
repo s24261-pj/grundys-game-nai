@@ -30,5 +30,4 @@ class GameHandler:
         game = GrundysGame(players, initial_pile=self.initial_pile)
         game.play()
 
-        winner_index = game.current_player - 1
-        print(f"Player {winner_index + 1} wins! Congratulations!")
+        print(f"Player {game.opponent_index} wins! Congratulations!")

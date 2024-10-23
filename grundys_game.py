@@ -71,10 +71,10 @@ class GrundysGame(TwoPlayerGame):
 
     def show(self):
         """
-        Displays the current state of stacks and their indices.
+        Displays the current state of stacks and their indexes.
         """
-        print(f"Stacks: {self.stacks}")
-        print(f"------ {list(range(len(self.stacks)))}")
+        print(f"\033[92mStacks:  {self.stacks}\033[0m")
+        print(f"Indexes: {list(range(len(self.stacks)))}")
 
     def scoring(self):
         """

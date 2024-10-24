@@ -48,3 +48,10 @@ To run Grundy's Game locally, follow the steps below to set up the environment:
     ```bash
     python main.py
     ```
+
+## Screenshots from the game
+
+<img width="1439" alt="Zrzut ekranu 2024-10-24 o 15 06 12" src="https://github.com/user-attachments/assets/00e5cf6d-0738-4d93-943d-08ad044c862f">
+<img width="1439" alt="Zrzut ekranu 2024-10-24 o 15 06 47" src="https://github.com/user-attachments/assets/48d24c45-d5b3-4726-97d9-139254cdd79c">
+<img width="1439" alt="Zrzut ekranu 2024-10-24 o 15 06 57" src="https://github.com/user-attachments/assets/2d6a4498-035b-40f4-b72b-d129948f942e">
+

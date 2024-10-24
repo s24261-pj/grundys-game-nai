@@ -1,8 +1,8 @@
-# Grundy's Game
+# Grundy's game
 
 Grundy's Game is a mathematical strategy game where two players take turns splitting a pile of objects into two unequal piles. The game continues until no more valid moves can be made. The player who makes the last move wins the game.
 
-## Game Rules and Description
+## Game rules and description
 
 The official rules and description of Grundy's Game can be found at the following link:
 
@@ -13,7 +13,7 @@ The official rules and description of Grundy's Game can be found at the followin
 - **Mateusz Kopczyński (s24261)**
 - **Artur Szulc (s24260)**
 
-## Environment Setup
+## Environment setup
 
 To run Grundy's Game locally, follow the steps below to set up the environment:
 

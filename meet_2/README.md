@@ -76,3 +76,12 @@ The system defines fuzzy sets and membership functions for each input, which are
 ### Example Fuzzy Rule
 
 For instance, if the indoor temperature is "very hot" and the room is "full," the system will set the cooling power to "very high."
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/a39ca860-17f3-4340-a0f7-ca2b56b9a54d)
+![image](https://github.com/user-attachments/assets/99ba40f6-2e95-49af-a174-e9a17d82a044)
+![image](https://github.com/user-attachments/assets/115cdbd5-6aeb-488e-86ba-115e572589cc)
+
+
+
+

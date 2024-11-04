@@ -31,7 +31,13 @@ To run Grundy's Game locally, follow the steps below to set up the environment:
     cd grundys-game-nai
     ```
 
-2. Install the required dependencies:
+2. Move to 1-st meet
+
+   ```bash
+   cd meet_1
+   ```
+
+3. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
@@ -43,7 +49,7 @@ To run Grundy's Game locally, follow the steps below to set up the environment:
     easyAI
     ```
 
-3. Run the game:
+4. Run the game:
 
     ```bash
     python main.py

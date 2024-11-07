@@ -82,6 +82,13 @@ For instance, if the indoor temperature is "very hot" and the room is "full," th
 ![image](https://github.com/user-attachments/assets/99ba40f6-2e95-49af-a174-e9a17d82a044)
 ![image](https://github.com/user-attachments/assets/115cdbd5-6aeb-488e-86ba-115e572589cc)
 
+## Membership functions universe visualization
+![image](https://github.com/user-attachments/assets/f4e39f55-14a7-429b-873e-21bb297273f5)
+![image](https://github.com/user-attachments/assets/0c2e19eb-9dab-47ed-b4ef-286b739f290a)
+![image](https://github.com/user-attachments/assets/6a267876-7b72-4eb4-8bfd-2c764943763e)
+
+
+
 
 
 

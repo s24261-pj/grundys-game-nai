@@ -43,5 +43,10 @@ if __name__ == '__main__':
         for movie, score in recommendations:
             print(f"{movie}: {score:.2f}")
 
+        anti_recommendations = recommender.anti_recommend_movies(user, similar_users)
+        print(f"\nTop {len(anti_recommendations)} anti-recommended movies for {user}:")
+        for movie, score in anti_recommendations:
+            print(f"{movie}: {score:.2f}")
+
     except KeyError as e:
         print(f"Error: {e}")

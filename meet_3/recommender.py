@@ -3,7 +3,7 @@ from similarity import Similarity
 
 class Recommender:
     """
-    A class to generate movie recommendations for users based on similarity metrics.
+    A class to generate movie recommendations and anti-recommendations for users based on similarity metrics.
     """
     def __init__(self, dataset, similarity_function):
         """
@@ -70,3 +70,38 @@ class Recommender:
 
         sorted_recommendations = sorted(recommendations.items(), key=lambda x: x[1], reverse=True)
         return sorted_recommendations[:top_n]
+
+    def anti_recommend_movies(self, user, similar_users, top_n=5):
+        """
+        Anti-recommend movies for the target user based on similar users' ratings.
+
+        Args:
+            user (str): The target user.
+            similar_users (list): A list of tuples (user, similarity_score).
+            top_n (int, optional): Number of anti-recommendations to return. Defaults to 5.
+
+        Returns:
+            list: A list of tuples (movie, score), sorted by score in ascending order.
+        """
+        user_ratings = self.dataset[user]
+        anti_recommendations = {}
+
+        for similar_user, similarity in similar_users:
+            if Similarity.euclidean == self.similarity_function:
+                similarity = 1 / (1 + similarity)
+
+            for movie, rating in self.dataset[similar_user].items():
+                if movie not in user_ratings:
+                    if movie not in anti_recommendations:
+                        anti_recommendations[movie] = 0
+                    anti_recommendations[movie] += similarity * rating
+
+        for movie in anti_recommendations:
+            total_similarity = sum(
+                1 / (1 + sim[1]) if Similarity.euclidean == self.similarity_function else sim[1]
+                for sim in similar_users
+            )
+            anti_recommendations[movie] /= total_similarity
+
+        sorted_anti_recommendations = sorted(anti_recommendations.items(), key=lambda x: x[1])
+        return sorted_anti_recommendations[:top_n]

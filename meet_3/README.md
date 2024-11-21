@@ -89,3 +89,9 @@ Measures the straight-line distance between two users' rating vectors.
 Measures the linear relationship between two users' ratings.
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/14105724-d94d-4cc7-aca3-e6e40cbb8e6c)
+![image](https://github.com/user-attachments/assets/7292fd74-6159-480e-9814-6ff813817a31)
+![image](https://github.com/user-attachments/assets/32c8e794-3edb-4612-a0b6-50749f5d8572)
+![image](https://github.com/user-attachments/assets/86c14dcc-ef14-47b8-8d22-7d12ef1237f8)
+
+

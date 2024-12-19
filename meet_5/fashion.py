@@ -18,7 +18,7 @@ plot_sample_images(x_train, y_train, [class_names[i] for i in selected_classes])
 model = tf.keras.models.Sequential([
     tf.keras.layers.Flatten(),
     tf.keras.layers.Dense(128, activation=tf.nn.relu),
-    tf.keras.layers.Dense(10, activation=tf.nn.softmax)
+    tf.keras.layers.Dense(6, activation=tf.nn.softmax)
 ])
 
 model.compile(optimizer='adam',

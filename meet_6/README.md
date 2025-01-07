@@ -49,4 +49,5 @@ This project implements a system for real-time flag detection using computer vis
 ---
 
 ## Video
+[Nagranie+ekranu+z+2025-01-07+20-55-42.webm](https://github.com/user-attachments/assets/d59b66f1-3255-42f0-b32d-cace5870abe9)
 

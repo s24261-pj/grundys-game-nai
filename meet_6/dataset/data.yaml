@@ -1,0 +1,13 @@
+train: /home/artur/PycharmProjects/pjatk/grundys-game-nai/meet_6/dataset/train/images
+val: /home/artur/PycharmProjects/pjatk/grundys-game-nai/meet_6/dataset/valid/images
+test: /home/artur/PycharmProjects/pjatk/grundys-game-nai/meet_6/dataset/test/images
+
+nc: 3
+names: ['poland', 'portugal', 'russia']
+
+roboflow:
+  workspace: first-yzvm0
+  project: flags-yptnn
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/first-yzvm0/flags-yptnn/dataset/1

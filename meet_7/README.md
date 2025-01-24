@@ -105,3 +105,6 @@ This project was created by:
 ---
 
 ## Media
+[Nagranie ekranu z 2025-01-23 22-49-17.webm](https://github.com/user-attachments/assets/a8e6f824-db6c-452e-be2d-486171057d11)
+[Nagranie ekranu z 2025-01-23 23-00-06.webm](https://github.com/user-attachments/assets/2f589836-c2a4-4916-bf42-a725ac7eeff7)
+[Nagranie ekranu z 2025-01-23 22-53-15.webm](https://github.com/user-attachments/assets/92e5671a-226d-4f1a-9bc6-15ef911815ab)

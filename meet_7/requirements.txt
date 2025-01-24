@@ -1,0 +1,6 @@
+numpy
+ale-py
+gymnasium
+tensorflow
+time
+collections
